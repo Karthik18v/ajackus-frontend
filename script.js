@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       saveToLocalStorage();
       alert("Employee saved successfully!");
-      window.location.href = "dashboard.html";
+      window.location.href = "index.html";
     });
   }
 });
