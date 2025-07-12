@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Employee Directory</h1>
+      <input
+        class="search-bar"
+        type="search"
+        id="searchInput"
+        placeholder="Search by name or email"
+      />
+      <button type="button" id="filterButton">Filter</button>
+    </div>
+
+    <div class="controls">
+      <div class="control-group-container">
+        <div class="control-group">
+          <label for="sortSelect">Sort:</label>
+          <select id="sortSelect">
+            <option value="firstName">First Name</option>
+            <option value="email">Email</option>
+            <option value="role">Role</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="showNumberOfEmployees">Show:</label>
+          <select id="showNumberOfEmployees">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" id="addEmployeeButton">+ Add Employee</button>
+    </div>
+
+    <div id="employeeList" class="employee-list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

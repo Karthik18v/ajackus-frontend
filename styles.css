@@ -1,0 +1,206 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+.search-bar:focus {
+    border-color: #10a37f;
+    background-color: #fff;
+}
+
+/* Control bar */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+}
+
+.control-group-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.control-group label {
+    margin-right: 6px;
+}
+
+.control-group select {
+    padding: 6px;
+    border-radius: 4px;
+    background: #f1f1f1;
+}
+
+/* Add button */
+#addEmployeeButton {
+    background-color: #10a37f;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#addEmployeeButton:hover {
+    background-color: #0d8a6e;
+}
+
+/* Employee cards */
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.employee-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    width: 240px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card button {
+    margin-top: 8px;
+    margin-right: 6px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #10a37f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.employee-card button:hover {
+    background-color: #0e8f6e;
+}
+
+/* Form styles */
+form {
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #10a37f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0e8f6e;
+}
+
+.form-container {
+    background: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    display: block;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.cancel-btn,
+.add-btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #ccc;
+    color: black;
+}
+
+.add-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
